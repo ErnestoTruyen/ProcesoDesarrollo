@@ -1,7 +1,7 @@
 public class primeraClase {
     
     public void buscarCuenta(){
-        List<Account> cuentas = [SELECT ID,Name FROM Account LIMIT 15];
+        List<Account> cuentas = [SELECT ID,Name FROM Account LIMIT 150];
         
         if(cuentas.size() > 5){
             System.debug('Hay mas de 5 cuentas');
